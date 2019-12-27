@@ -1,0 +1,195 @@
+body {
+color:black;
+background-image:url(electricity.jpg) ;
+background-size:cover;
+background-position:center;
+border-bottom:1px solid black;
+}
+background-image {
+  opacity: 0.5;
+  filter: alpha(opacity=50); 
+}
+h1 {
+color:#05386b;
+border-radius: 10px;
+border-color:  #05386b;
+border-width:2px;
+border-style:solid;
+background-color:#8ee4af;
+}
+h2 {
+color:#05386b; 
+}
+li a:hover:not(.activate){
+background-color: #05386b;
+color:white;
+}
+.activate{
+background-color:#05386b;
+color:white;
+}
+ul {
+list-style-type: none;
+margin:0;
+padding:0;
+overflow: hidden;
+background-color: #8ee4af;
+}
+li {
+float:left;
+border-right: 1px solid #05386b;
+}
+li a{
+color: #05386b;
+text-decoration: none;
+display: block;
+text-align:center;
+padding: 14px 16px;
+}
+
+#stroke {
+  color: black;
+  -webkit-text-fill-color:  #05386b;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color:  #05386b;
+    font-size: 28px;
+}
+
+#container {
+position: fixed;
+border-radius: 10px;
+border-color:  #05386b;
+border-width:2px;
+border-style:solid;
+width: 340px;  
+height: 285px;
+top: 50%;
+left: 50%;
+margin-top: -140px;
+margin-left: -170px;
+background: #8EE4AF;
+}
+#container2 {
+position: fixed;
+width: 440px;
+height: 410px;
+top: 50%;
+left: 50%;
+margin-top: -140px;
+margin-left: -170px;
+background: #8EE4AF;
+border-radius: 3px;
+border: 1px solid #ccc;
+}
+#container3 {
+position: fixed;
+width: 440px;
+height: 300px;
+top: 50%;
+left: 50%;
+margin-top: -140px;
+margin-left: -170px;
+background:#8EE4AF;
+border-radius: 3px;
+border: 1px solid #ccc;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=number] ,select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display:inline-block;
+  border:  1px solid #ccc;
+  border-radius: 4px;
+  box-sizing:border-box;
+}
+.button {
+  background-color:#05386b;
+  color:white;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display:inline-block;
+  border:  1px solid #ccc;
+  border-radius: 4px;
+  box-sizing:border-box;
+  cursor:pointer;
+}
+.b {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 10;
+  border:  1px solid #ccc;
+  border-radius: 4px;
+  box-sizing:border-box;
+}
+#row{
+display:flex;
+}
+#col{
+padding-left:250px;
+padding-top:50px;
+}
+.sidenav {
+  height: 80%;
+  width: 200px;
+  position: fixed;
+  z-index: 4;
+  top: 140;
+  left: 7.5;
+  background-color:#8ee4af;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color:  #05386b;
+  border-bottom: 2px solid #05386b;
+  display: block;
+}
+
+.sidenav a:hover {
+  background-color: #05386b;
+  color: white;
+}
+
+.main {
+  margin-left: 200px;
+  font-size: 28px; 
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
